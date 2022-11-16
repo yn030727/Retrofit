@@ -45,5 +45,7 @@ class MainActivity : AppCompatActivity() {
                 }
             })
         }
+
+        val appService1=ServiceCreator.create(AppService::class.java)
     }
 }
